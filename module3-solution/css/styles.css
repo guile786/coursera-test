@@ -1,11 +1,18 @@
 body {background-color:#fff;}
-
-
-
+.navbarcontainer {background-color:burlywood;width:100%;padding:15px 0;border-top:2px solid #000;border-bottom:2px solid #000;}
+.navbar {padding:0;}
+.navbar-brand {margin-left:15px;float:left;}
+.navbar-toggler {float:right;}
+#nonHeader h2 {padding:10px 0 25px 0;}
+.menuDetails {background-color:gainsboro;margin-top:20px;}
+.menuDetails h3 {padding:15px 0;}
+.menuDetails p {font-size:18px;color:#000;text-align:justify;}
 
 /*mobile*/
 @media only screen and (max-width: 767px)  {
+    .navbar-toggler {margin:0 15px 5px 0;}
     ul.navbar-nav li {border-bottom:2px solid gray;}
+    .menuDetails {width:80%;}
 }
 
 /*tablet*/
